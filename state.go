@@ -27,8 +27,6 @@ type (
 	LuaFunctionRetNum uint
 )
 
-func (lr *LuaRunner) TEST() {}
-
 func (l LuaLib) IsLuaResource()  {}
 func (f LuaFunc) IsLuaResource() {}
 
